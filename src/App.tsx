@@ -1,5 +1,6 @@
 
 import './App.css'
+import Form from './components/Form'
 import Greeting from './components/Greeting'
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
     <>
       <h1>React + Typescript Project</h1>
      <Greeting name={name} age={age}/>
+
+     <Form />
     </>
   )
 }

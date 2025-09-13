@@ -2,6 +2,7 @@
 import './App.css'
 import Form from './components/Form'
 import Greeting from './components/Greeting'
+import Task from './useRef/Task'
 
 function App() {
 
@@ -12,9 +13,10 @@ function App() {
   return (
     <>
       <h1>React + Typescript Project</h1>
-     <Greeting name={name} age={age}/>
+     {/* <Greeting name={name} age={age}/> */}
 
-     <Form />
+     {/* <Form /> */}
+     <Task />
     </>
   )
 }
